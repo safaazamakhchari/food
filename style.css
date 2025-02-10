@@ -76,3 +76,46 @@ body {
 .menu-section ul li span:last-child {
     text-align: right;
 }
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .menu-container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .menu-section {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .menu-header h1 {
+        font-size: 24px;
+    }
+
+    .menu-logo {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .menu-header h1 {
+        font-size: 20px;
+    }
+
+    .menu-logo {
+        width: 60px;
+    }
+
+    .menu-section h2 {
+        font-size: 18px;
+    }
+
+    .menu-section ul li {
+        font-size: 16px;
+    }
+}
